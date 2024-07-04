@@ -1,6 +1,8 @@
 # Shape and Colour detection using OpenCV
 
-This code's function is to identify the shape and colour of objects placed in the field of view of a webcam.
+Scope: The main goal of this project was to create a python script that could identify the shape and colour of objects shown to a webcam. 
+Action: To begin this project, I first had to research different approaches for distinguishing shapes and colours. As the objects were of a pre-known set of colours, an option was to use a colour mask to identify a set of shapes of that colour, and then separate them out using contour generation. An additional option was to create a fixed morphology and use contouring to find every shape. I decided for go for the latter option as this opened up more options, and the code would not have to change if an additional colour was added to the set of objects. 
+Result: Most issues arose when finding which functions were best suited for each functionality as there are a wide variety of prebuild modules for each application, researching each and finding the benefits/drawbacks of each methodology was key in finding a good fit.
 
 ## Installation
 
